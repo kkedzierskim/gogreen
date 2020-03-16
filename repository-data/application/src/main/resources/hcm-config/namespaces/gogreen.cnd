@@ -5,10 +5,19 @@
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 <'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
 
+[gogreen:account] > hippo:compound, hippostd:relaxed
+  orderable
+
 [gogreen:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
+[gogreen:author] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [gogreen:bannerdocument] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gogreen:blogpost] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
 [gogreen:contentdocument] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated

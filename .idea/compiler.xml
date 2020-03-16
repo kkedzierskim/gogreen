@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gogreen-webapp" />
+        <module name="gogreen-essentials" />
+        <module name="gogreen-repository-data-site-development" />
+        <module name="gogreen-components" />
+        <module name="gogreen-repository-data-development" />
+        <module name="gogreen-repository-data-site" />
+        <module name="gogreen-repository-data-webfiles" />
+        <module name="gogreen-repository-data-application" />
+        <module name="gogreen-cms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gogreen" target="1.5" />
+      <module name="gogreen-cms" target="1.8" />
+      <module name="gogreen-cms-dependencies" target="1.5" />
+      <module name="gogreen-components" target="1.8" />
+      <module name="gogreen-essentials" target="1.8" />
+      <module name="gogreen-repository-data" target="1.5" />
+      <module name="gogreen-repository-data-application" target="1.8" />
+      <module name="gogreen-repository-data-development" target="1.8" />
+      <module name="gogreen-repository-data-site" target="1.8" />
+      <module name="gogreen-repository-data-site-development" target="1.8" />
+      <module name="gogreen-repository-data-webfiles" target="1.8" />
+      <module name="gogreen-site" target="1.5" />
+      <module name="gogreen-webapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

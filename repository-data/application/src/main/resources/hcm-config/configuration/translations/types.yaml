@@ -108,3 +108,121 @@ definitions:
         jcr:name: Einfaches Dokument
     /hippo:configuration/hippo:translations/hippo:types/gogreen:imageset:
       jcr:primaryType: hipposys:resourcebundles
+    /hippo:configuration/hippo:translations/hippo:types/gogreen:blogpost:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:authors: Author(s)
+        gogreen:authors#hint: Link to author document(s)
+        gogreen:categories: Categories
+        gogreen:content: Content
+        gogreen:introduction: Introduction
+        gogreen:publicationdate: Publication Date
+        gogreen:title: Title
+        jcr:name: Blog Post
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:authors: Auteur(s)
+        gogreen:authors#hint: Link naar auteur document(en)
+        gogreen:categories: Categorieën
+        gogreen:content: Inhoud
+        gogreen:introduction: Introductie
+        gogreen:publicationdate: Publicatiedatum
+        gogreen:title: Titel
+        jcr:name: Blogpost
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:authors: Auteur(s)
+        gogreen:authors#hint: Lien vers le(s) document(s) de l'auteur
+        gogreen:categories: Catégories
+        gogreen:content: Contenu
+        gogreen:introduction: Introduction
+        gogreen:publicationdate: Date de publication
+        gogreen:title: Titre
+        jcr:name: Post blog
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:authors: Verfasser
+        gogreen:authors#hint: Link zu Verfasserdokument(en)
+        gogreen:categories: Kategorien
+        gogreen:content: Inhalt
+        gogreen:introduction: Einführung
+        gogreen:publicationdate: Publikationsdatum
+        gogreen:title: Titel
+        jcr:name: Blog-Post
+    /hippo:configuration/hippo:translations/hippo:types/gogreen:author:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:accounts: Accounts
+        gogreen:accounts#hint: External social media accounts
+        gogreen:content: Description
+        gogreen:content#hint: Information about the author
+        gogreen:fullname: Name
+        gogreen:fullname#hint: Full name
+        gogreen:photo: Photo
+        gogreen:photo#hint: Photo of the author
+        gogreen:role: Role
+        jcr:name: Author
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:accounts: Accounts
+        gogreen:accounts#hint: Externe social media accounts
+        gogreen:content: Beschrijving
+        gogreen:content#hint: Informatie over de auteur
+        gogreen:fullname: Naam
+        gogreen:fullname#hint: Volledige naam
+        gogreen:photo: Foto
+        gogreen:photo#hint: Foto van de auteur
+        gogreen:role: Rol
+        jcr:name: Auteur
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:accounts: Konten
+        gogreen:accounts#hint: Comptes médias sociaux externes
+        gogreen:content: Description
+        gogreen:content#hint: Informations sur l'auteur
+        gogreen:fullname: Nom
+        gogreen:fullname#hint: Nom complet
+        gogreen:photo: Photo
+        gogreen:photo#hint: Photo de l'auteur
+        gogreen:role: Rôle
+        jcr:name: Auteur
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:accounts: Comptes
+        gogreen:accounts#hint: Externe Konten soziale Medien
+        gogreen:content: Beschreibung
+        gogreen:content#hint: Informationen über den Verfasser
+        gogreen:fullname: Name
+        gogreen:fullname#hint: Vollständiger Name
+        gogreen:photo: Foto
+        gogreen:photo#hint: Foto des Verfassers
+        gogreen:role: Rolle
+        jcr:name: Verfasser
+    /hippo:configuration/hippo:translations/hippo:types/gogreen:account:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:link: Link
+        gogreen:link#hint: External link to the account
+        gogreen:type: Type
+        jcr:name: Account (Compound)
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:link: Link
+        gogreen:link#hint: Externe link naar het account
+        gogreen:type: Soort
+        jcr:name: Account (Compound)
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:link: Lien
+        gogreen:link#hint: Lien externe vers le compte
+        gogreen:type: Type
+        jcr:name: Compte (Compound)
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        gogreen:link: Link
+        gogreen:link#hint: Externer Link zum Konto
+        gogreen:type: Art
+        jcr:name: Konto (Compound)
