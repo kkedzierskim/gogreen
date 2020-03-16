@@ -1,6 +1,4 @@
-.DS_Store
-.project
-.classpath
-.settings
-target
-storage
+**/target/**
+abeecms/storage/
+*.iml
+**/.idea/**
