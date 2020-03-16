@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gogreen.iml" filepath="$PROJECT_DIR$/gogreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms/gogreen-cms.iml" filepath="$PROJECT_DIR$/cms/gogreen-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-dependencies/gogreen-cms-dependencies.iml" filepath="$PROJECT_DIR$/cms-dependencies/gogreen-cms-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/components/gogreen-components.iml" filepath="$PROJECT_DIR$/site/components/gogreen-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essentials/gogreen-essentials.iml" filepath="$PROJECT_DIR$/essentials/gogreen-essentials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/gogreen-repository-data.iml" filepath="$PROJECT_DIR$/repository-data/gogreen-repository-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/application/gogreen-repository-data-application.iml" filepath="$PROJECT_DIR$/repository-data/application/gogreen-repository-data-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/development/gogreen-repository-data-development.iml" filepath="$PROJECT_DIR$/repository-data/development/gogreen-repository-data-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site/gogreen-repository-data-site.iml" filepath="$PROJECT_DIR$/repository-data/site/gogreen-repository-data-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site-development/gogreen-repository-data-site-development.iml" filepath="$PROJECT_DIR$/repository-data/site-development/gogreen-repository-data-site-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/webfiles/gogreen-repository-data-webfiles.iml" filepath="$PROJECT_DIR$/repository-data/webfiles/gogreen-repository-data-webfiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/gogreen-site.iml" filepath="$PROJECT_DIR$/site/gogreen-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/webapp/gogreen-webapp.iml" filepath="$PROJECT_DIR$/site/webapp/gogreen-webapp.iml" />
+    </modules>
+  </component>
+</project>

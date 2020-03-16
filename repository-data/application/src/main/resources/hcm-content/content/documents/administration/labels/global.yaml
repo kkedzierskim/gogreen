@@ -1,4 +1,5 @@
 /content/documents/administration/labels/global:
+  .meta:order-before: blog
   jcr:primaryType: hippo:handle
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
   jcr:uuid: ee94b6d5-5319-48d8-a266-781d519bb0c3

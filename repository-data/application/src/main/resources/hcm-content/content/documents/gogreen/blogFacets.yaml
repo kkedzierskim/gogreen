@@ -1,0 +1,15 @@
+/content/documents/gogreen/blogFacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:docbase: 3229a33a-2632-4587-97b4-e80caef81223
+  hippofacnav:facetnodenames: [Authors, Categories, Tags, Date]
+  hippofacnav:facets: ['gogreen:authornames', 'gogreen:categories', 'hippostd:tags',
+    "gogreen:publicationdate$[\n                {name:'Last 7 days',resolution:'day',\
+      \ begin:-6, end:1},\n                {name:'Last month',resolution:'day', begin:-30,\
+      \ end:1},\n                {name:'Last 3 months',resolution:'day', begin:-91,\
+      \ end:1},\n                {name:'Last 6 months',resolution:'day', begin:-182,\
+      \ end:1},\n                {name:'Last year',resolution:'day', begin:-365, end:1}\n\
+      \                ]"]
+  hippofacnav:filters: ['jcr:primaryType = gogreen:blogpost']
+  hippofacnav:limit: 100
+  hippofacnav:sortby: ['gogreen:publicationdate']
+  hippofacnav:sortorder: [descending]

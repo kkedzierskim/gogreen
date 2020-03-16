@@ -1,4 +1,5 @@
 /content/documents/gogreen/newsfacets:
+  .meta:order-before: blog
   jcr:primaryType: hippofacnav:facetnavigation
   hippo:docbase: a112e83b-2904-410b-972d-620b6d7b8df1
   hippofacnav:facetnodenames: [Location, Author, Year]
