@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 75f35182-4327-4be4-a7bf-a142a517cfab
+          jcr:uuid: 9f05d40f-a6ce-4d58-9643-32d0a92ba64b
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
@@ -70,6 +70,14 @@ definitions:
             hipposysedit:path: gogreen:authornames
             hipposysedit:primary: false
             hipposysedit:type: String
+          /image:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:image
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         jcr:mixinTypes: ['mix:referenceable']
@@ -77,7 +85,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:blogpost
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: a65567ee-2e4c-45fa-9c59-6507a36682a7
+          jcr:uuid: a2f2cb49-a33b-4c26-99e4-b6623ba8690c
           gogreen:authornames: ['']
           gogreen:introduction: ''
           gogreen:publicationdate: 0001-01-01T13:00:00+01:00
@@ -91,12 +99,19 @@ definitions:
           hippostdpubwf:lastModifiedBy: ''
           hippotranslation:id: document-type-locale-id
           hippotranslation:locale: document-type-locale
+          gogreen:categories: []
           /gogreen:content:
             jcr:primaryType: hippostd:html
             hippostd:content: ''
           /gogreen:authors:
             jcr:primaryType: hippo:mirror
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -156,6 +171,8 @@ definitions:
             field: content
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.left.item
+            caption: ''
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
           /categories:
@@ -174,6 +191,14 @@ definitions:
             jcr:primaryType: frontend:plugin
             mixin: hippostd:taggable
             plugin.class: org.hippoecm.frontend.editor.plugins.mixin.MixinLoaderPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /image:
+            jcr:primaryType: frontend:plugin
+            caption: image
+            field: image
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.left.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

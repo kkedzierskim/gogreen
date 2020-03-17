@@ -2,13 +2,9 @@ definitions:
   config:
     /hst:hst/hst:configurations/gogreen/hst:pages/blogpage:
       jcr:primaryType: hst:component
-      hst:referencecomponent: hst:pages/blog
+      hst:referencecomponent: hst:abstractpages/twocolumns
       /main:
         jcr:primaryType: hst:component
-        hst:template: blog-main
-        /sidebarcontainer:
+        /left:
           jcr:primaryType: hst:containercomponentreference
-          hst:referencecomponent: blogpagesidebar/main
-        /detailcontainer:
-          jcr:primaryType: hst:containercomponentreference
-          hst:referencecomponent: blogpagedetail/main
+          hst:referencecomponent: blogpagedetail/main/left

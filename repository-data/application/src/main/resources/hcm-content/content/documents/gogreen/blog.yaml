@@ -128,10 +128,11 @@
       hippotranslation:locale: en
       /first-blog-post:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: 7fb6eff9-6e78-49e2-9550-1366109270ed
         hippo:name: First blog post
-        /first-blog-post:
+        hippo:versionHistory: c449749d-b11b-4e6d-a7e9-b54b48db3d6b
+        /first-blog-post[1]:
           jcr:primaryType: gogreen:blogpost
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 1e983d8f-4226-42bf-97c1-982a3d3b93a9
@@ -146,16 +147,16 @@
             of Letraset sheets containing Lorem Ipsum passages, and more recently
             with desktop publishing software like Aldus PageMaker including versions
             of Lorem Ipsum.
-          gogreen:publicationdate: 2020-03-16T10:27:00+01:00
+          gogreen:publicationdate: 2020-03-01T10:27:00+01:00
           gogreen:title: First blog post
-          hippo:availability: [live, preview]
+          hippo:availability: [live]
           hippostd:holder: admin
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
-          hippostdpubwf:lastModificationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:34:27.703+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:publicationDate: 2020-03-16T15:34:33.004+01:00
           hippotranslation:id: cba3610d-5eef-4ad2-9e05-f9b5b0b97787
           hippotranslation:locale: en
           /gogreen:content:
@@ -207,12 +208,179 @@
           /gogreen:authors:
             jcr:primaryType: hippo:mirror
             hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 8a7b7fe5-205a-4acb-ad7d-5d00e93ab56f
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /first-blog-post[2]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 4a69473f-08e1-49d5-a41b-7d502eebc779
+          gogreen:authornames: [Hippo Author]
+          gogreen:categories: [cms, life]
+          gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release
+            of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.
+          gogreen:publicationdate: 2020-03-01T10:27:00+01:00
+          gogreen:title: First blog post
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:34:27.703+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: cba3610d-5eef-4ad2-9e05-f9b5b0b97787
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                        years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                        Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                        Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                        Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                        by English versions from the 1914 translation by H. Rackham.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 8a7b7fe5-205a-4acb-ad7d-5d00e93ab56f
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /first-blog-post[3]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d8edb3b8-1c28-42ce-923f-557d86c01d56
+          gogreen:authornames: [Hippo Author]
+          gogreen:categories: [cms, life]
+          gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release
+            of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.
+          gogreen:publicationdate: 2020-03-01T10:27:00+01:00
+          gogreen:title: First blog post
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:34:27.790+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: cba3610d-5eef-4ad2-9e05-f9b5b0b97787
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                        years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                        Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                        Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                        Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                        by English versions from the 1914 translation by H. Rackham.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 8a7b7fe5-205a-4acb-ad7d-5d00e93ab56f
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /second-blog-post:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: 78ee1230-f79b-405d-91a3-fc2f240a5054
         hippo:name: Second blog post
-        /second-blog-post:
+        hippo:versionHistory: 99e5cc32-17ad-4a1d-be0f-aeb23b81070e
+        /second-blog-post[1]:
           jcr:primaryType: gogreen:blogpost
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 0abbd938-ba89-4628-9a0b-225bab0a36d4
@@ -227,16 +395,16 @@
             of Letraset sheets containing Lorem Ipsum passages, and more recently
             with desktop publishing software like Aldus PageMaker including versions
             of Lorem Ipsum.
-          gogreen:publicationdate: 2020-03-16T10:27:00+01:00
+          gogreen:publicationdate: 2020-02-16T10:27:00+01:00
           gogreen:title: Second blog post
-          hippo:availability: [live, preview]
+          hippo:availability: [live]
           hippostd:holder: admin
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
-          hippostdpubwf:lastModificationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:35:43.478+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:publicationDate: 2020-03-16T15:35:50.434+01:00
           hippotranslation:id: 006255a5-0b79-42d4-a181-b32eaaea9a44
           hippotranslation:locale: en
           /gogreen:content:
@@ -288,30 +456,197 @@
           /gogreen:authors:
             jcr:primaryType: hippo:mirror
             hippo:docbase: 696a2657-448f-4a5a-89f5-1426d9ba1f7d
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 698a940a-d812-4acd-a529-25d086d3c177
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /second-blog-post[2]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 8975ac33-d5bf-4db3-98b9-9748e19898bf
+          gogreen:authornames: [Hippo Essentials Author]
+          gogreen:categories: [cms, life]
+          gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release
+            of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.
+          gogreen:publicationdate: 2020-02-16T10:27:00+01:00
+          gogreen:title: Second blog post
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:35:43.478+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 006255a5-0b79-42d4-a181-b32eaaea9a44
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                        years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                        Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                        Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                        Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                        by English versions from the 1914 translation by H. Rackham.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 696a2657-448f-4a5a-89f5-1426d9ba1f7d
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 698a940a-d812-4acd-a529-25d086d3c177
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /second-blog-post[3]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 753dfb61-19c8-4e84-93ca-6abfb3e2273a
+          gogreen:authornames: [Hippo Essentials Author]
+          gogreen:categories: [cms, life]
+          gogreen:introduction: Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release
+            of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.
+          gogreen:publicationdate: 2020-02-16T10:27:00+01:00
+          gogreen:title: Second blog post
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:35:43.516+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 006255a5-0b79-42d4-a181-b32eaaea9a44
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                        years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                        Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                        Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+                        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                        Malorum" by Cicero are also reproduced in their exact original form, accompanied
+                        by English versions from the 1914 translation by H. Rackham.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or
+                        randomised words which don't look even slightly believable. If you are going to
+                        use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                        Internet tend to repeat predefined chunks as necessary, making this the first
+                        true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                        combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 696a2657-448f-4a5a-89f5-1426d9ba1f7d
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 698a940a-d812-4acd-a529-25d086d3c177
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /third-blog-post:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: 9f30827f-faad-4f89-b069-e2cc91d5a5a3
         hippo:name: Third blog post
-        /third-blog-post:
+        hippo:versionHistory: edefff86-a1ca-49ea-809c-184467fde65e
+        /third-blog-post[1]:
           jcr:primaryType: gogreen:blogpost
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: f542623f-4ed4-4fe1-b5d9-4342c85abab9
           gogreen:authornames: [Hippo Author]
-          gogreen:categories: [life, lorem, ipsum]
+          gogreen:categories: [cms, life, lorem, ipsum]
           gogreen:introduction: His no soleat iriure. Etiam dissentiet duo at. Ad
             facilis pertinacia eam, nam melius facilisi volutpat ut, ea munere legere
             qualisque pri. Cu nisl disputationi has. Duo tollit putent cu.
-          gogreen:publicationdate: 2020-03-16T10:27:00+01:00
+          gogreen:publicationdate: 2020-03-11T10:27:00+01:00
           gogreen:title: Third blog post
-          hippo:availability: [live, preview]
+          hippo:availability: [live]
           hippostd:holder: admin
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
-          hippostdpubwf:lastModificationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:36:12.654+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:publicationDate: 2020-03-16T15:36:16.715+01:00
           hippotranslation:id: c06f1667-0e83-4462-860b-dcb031114115
           hippotranslation:locale: en
           /gogreen:content:
@@ -344,12 +679,129 @@
           /gogreen:authors:
             jcr:primaryType: hippo:mirror
             hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: aadc98d1-c422-4daf-b96a-1ecc1646ea0d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /third-blog-post[2]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 0a9eabb0-c911-4ee4-a8eb-363abbe69062
+          gogreen:authornames: [Hippo Author]
+          gogreen:categories: [cms, life, lorem, ipsum]
+          gogreen:introduction: His no soleat iriure. Etiam dissentiet duo at. Ad
+            facilis pertinacia eam, nam melius facilisi volutpat ut, ea munere legere
+            qualisque pri. Cu nisl disputationi has. Duo tollit putent cu.
+          gogreen:publicationdate: 2020-03-11T10:27:00+01:00
+          gogreen:title: Third blog post
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:36:12.654+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c06f1667-0e83-4462-860b-dcb031114115
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, sed dicant tempor dolorum at, pri in malis dicit omittam,
+                        mel ea constituto suscipiantur contentiones. At illum velit incorrupte pro. Ei vim tempor
+                        cetero, quo at volumus principes. No mel causae iisque viderer, eum agam dicit intellegebat
+                        cu. In nam meis pericula. No mea purto eirmod aliquid.</p>
+
+                        <p>Vis aeque eirmod persius ut, noster invidunt apeirian est no. Illum postea mnesarchum
+                        cu vix. Eam viris detracto no, usu soluta quaerendum at. Ius sale nullam eu. Vix cibo
+                        aperiri erroribus in, ea autem aeque sit.</p>
+
+                        <p>Vel tincidunt expetendis reformidans et, eum et oblique periculis. Vivendum recteque
+                        principes pri in. Id apeirian laboramus expetendis eum. Te debitis vocibus laboramus nam,
+                        ea ceteros copiosae est. Congue ornatus usu in, te vis impetus prodesset.</p>
+
+                        <p>Evertitur intellegam no mei, eos lobortis sapientem principes cu. Vel vidisse disputando
+                        et, ei melius moderatius duo. Esse tempor eu sed. Eu postea option impedit sed, no eum putent
+                        recusabo referrentur, no cum velit vitae. In pri justo nulla complectitur, cu duo doming
+                        graeco gubergren. Ius ferri platonem no, nec ei illum quaestio postulant, eu cum praesent
+                        voluptatum.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: aadc98d1-c422-4daf-b96a-1ecc1646ea0d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /third-blog-post[3]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9bc43de2-6747-4134-8f0b-9abb64ed8b2d
+          gogreen:authornames: [Hippo Author]
+          gogreen:categories: [cms, life, lorem, ipsum]
+          gogreen:introduction: His no soleat iriure. Etiam dissentiet duo at. Ad
+            facilis pertinacia eam, nam melius facilisi volutpat ut, ea munere legere
+            qualisque pri. Cu nisl disputationi has. Duo tollit putent cu.
+          gogreen:publicationdate: 2020-03-11T10:27:00+01:00
+          gogreen:title: Third blog post
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T15:35:55.805+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: c06f1667-0e83-4462-860b-dcb031114115
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Lorem ipsum dolor sit amet, sed dicant tempor dolorum at, pri in malis dicit omittam,
+                        mel ea constituto suscipiantur contentiones. At illum velit incorrupte pro. Ei vim tempor
+                        cetero, quo at volumus principes. No mel causae iisque viderer, eum agam dicit intellegebat
+                        cu. In nam meis pericula. No mea purto eirmod aliquid.</p>
+
+                        <p>Vis aeque eirmod persius ut, noster invidunt apeirian est no. Illum postea mnesarchum
+                        cu vix. Eam viris detracto no, usu soluta quaerendum at. Ius sale nullam eu. Vix cibo
+                        aperiri erroribus in, ea autem aeque sit.</p>
+
+                        <p>Vel tincidunt expetendis reformidans et, eum et oblique periculis. Vivendum recteque
+                        principes pri in. Id apeirian laboramus expetendis eum. Te debitis vocibus laboramus nam,
+                        ea ceteros copiosae est. Congue ornatus usu in, te vis impetus prodesset.</p>
+
+                        <p>Evertitur intellegam no mei, eos lobortis sapientem principes cu. Vel vidisse disputando
+                        et, ei melius moderatius duo. Esse tempor eu sed. Eu postea option impedit sed, no eum putent
+                        recusabo referrentur, no cum velit vitae. In pri justo nulla complectitur, cu duo doming
+                        graeco gubergren. Ius ferri platonem no, nec ei illum quaestio postulant, eu cum praesent
+                        voluptatum.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: aadc98d1-c422-4daf-b96a-1ecc1646ea0d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /fourth-blog-post:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: c7ee9005-1457-413e-a8c4-82f8a9a8b7ef
         hippo:name: Fourth blog post
-        /fourth-blog-post:
+        hippo:versionHistory: f4465a88-8ea5-411b-bde4-ab5aa8258e40
+        /fourth-blog-post[1]:
           jcr:primaryType: gogreen:blogpost
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: e30515b0-7059-4316-ae4a-4b9bf8089cce
@@ -360,14 +812,14 @@
             placerat, partem accusata his ad. Ne vel inimicus referrentur.
           gogreen:publicationdate: 2020-03-16T10:27:00+01:00
           gogreen:title: Fourth blog post
-          hippo:availability: [live, preview]
+          hippo:availability: [live]
           hippostd:holder: admin
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
-          hippostdpubwf:lastModificationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T13:22:43.127+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:publicationDate: 2020-03-16T13:22:44.804+01:00
           hippotranslation:id: 9c63ff25-4e12-40ca-80fd-bae9153d9b71
           hippotranslation:locale: en
           /gogreen:content:
@@ -401,6 +853,124 @@
           /gogreen:authors:
             jcr:primaryType: hippo:mirror
             hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0c794d02-6c26-409f-9d4e-e7662075bfaa
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /fourth-blog-post[2]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: d501105c-a47f-4596-a1d1-307a844bbc55
+          gogreen:authornames: [Hippo Author]
+          gogreen:categories: [ipsum]
+          gogreen:introduction: Aperiri insolens invenire vis id, ex vel rebum clita
+            postulant. Fierent tractatos adversarium no eam, eam cu libris habemus
+            placerat, partem accusata his ad. Ne vel inimicus referrentur.
+          gogreen:publicationdate: 2020-03-16T10:27:00+01:00
+          gogreen:title: Fourth blog post
+          hippo:availability: [preview]
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T13:22:43.127+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 9c63ff25-4e12-40ca-80fd-bae9153d9b71
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Pro rebum utinam laoreet ea. Altera denique per ne, eu vix elit omnium percipit.
+                        Ius idque lorem te, munere eruditi et usu. Invenire ocurreret vis ea, vocent feugait
+                        eu vel, omnium urbanitas no sea. Duo ridens scribentur ut, facer efficiendi eam ei,
+                        sea primis putant cu.</p>
+
+                        <p>Summo alienum vim ut. Te option fuisset mea, mnesarchum neglegentur no eos. Ut
+                        viderer impedit posidonium vim, alia deserunt mea ei. Nam purto tempor aperiam eu,
+                        impedit nusquam his id. Ut stet viris pri, id porro molestie quaerendum cum. An pri
+                        porro hendrerit temporibus.</p>
+
+                        <p>Aliquam civibus volutpat an usu. Nec liber everti ei, est semper appellantur
+                        comprehensam ei. At ius noster ponderum, nec porro salutandi prodesset ea. Ad duis
+                        inimicus theophrastus mei. Duo cu veniam iisque laboramus.</p>
+
+                        <p>Ut vel duis dolorum persequeris, sea agam brute menandri at, diam oporteat
+                        moderatius eos in. Modus nemore percipitur eum ex, audiam referrentur in pri, id
+                        numquam detracto consectetuer nec. Harum rationibus eu mei, quo suas commune ea,
+                        vim esse disputationi eu. Malis gloriatur eu mel, eam cu perpetua liberavisse
+                        accommodare. Ne est perpetua laboramus neglegentur, te sint reprehendunt ius.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0c794d02-6c26-409f-9d4e-e7662075bfaa
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /fourth-blog-post[3]:
+          jcr:primaryType: gogreen:blogpost
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a57f1e3a-6efb-4806-bd35-d1b4524e1678
+          gogreen:authornames: [Hippo Author]
+          gogreen:categories: [ipsum]
+          gogreen:introduction: Aperiri insolens invenire vis id, ex vel rebum clita
+            postulant. Fierent tractatos adversarium no eam, eam cu libris habemus
+            placerat, partem accusata his ad. Ne vel inimicus referrentur.
+          gogreen:publicationdate: 2020-03-16T10:27:00+01:00
+          gogreen:title: Fourth blog post
+          hippo:availability: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-03-16T10:27:00+01:00
+          hippostdpubwf:lastModificationDate: 2020-03-16T16:01:43.848+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 9c63ff25-4e12-40ca-80fd-bae9153d9b71
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Pro rebum utinam laoreet ea. Altera denique per ne, eu vix elit omnium percipit.
+                        Ius idque lorem te, munere eruditi et usu. Invenire ocurreret vis ea, vocent feugait
+                        eu vel, omnium urbanitas no sea. Duo ridens scribentur ut, facer efficiendi eam ei,
+                        sea primis putant cu.</p>
+
+                        <p>Summo alienum vim ut. Te option fuisset mea, mnesarchum neglegentur no eos. Ut
+                        viderer impedit posidonium vim, alia deserunt mea ei. Nam purto tempor aperiam eu,
+                        impedit nusquam his id. Ut stet viris pri, id porro molestie quaerendum cum. An pri
+                        porro hendrerit temporibus.</p>
+
+                        <p>Aliquam civibus volutpat an usu. Nec liber everti ei, est semper appellantur
+                        comprehensam ei. At ius noster ponderum, nec porro salutandi prodesset ea. Ad duis
+                        inimicus theophrastus mei. Duo cu veniam iisque laboramus.</p>
+
+                        <p>Ut vel duis dolorum persequeris, sea agam brute menandri at, diam oporteat
+                        moderatius eos in. Modus nemore percipitur eum ex, audiam referrentur in pri, id
+                        numquam detracto consectetuer nec. Harum rationibus eu mei, quo suas commune ea,
+                        vim esse disputationi eu. Malis gloriatur eu mel, eam cu perpetua liberavisse
+                        accommodare. Ne est perpetua laboramus neglegentur, te sint reprehendunt ius.</p>
+
+                        </body>
+                        </html>
+          /gogreen:authors:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 5a6e1136-dea0-4927-9130-9ce0a47b0189
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0c794d02-6c26-409f-9d4e-e7662075bfaa
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
   /account-types:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']

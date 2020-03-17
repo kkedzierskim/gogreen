@@ -5,6 +5,7 @@
 <#-- @ftlvariable name="query" type="java.lang.String" -->
 <@hst.setBundle basename="essentials.facets"/>
 <div>
+<#--
   <form action="<@hst.link />" method="get">
     <div class="row form-group">
       <div class="col-xs-8">
@@ -20,6 +21,7 @@
       </div>
     </div>
   </form>
+  -->
   <#if facets??>
     <#assign facetLimit = 50>
 

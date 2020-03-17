@@ -1,0 +1,492 @@
+/content/gallery/gogreen/blog-images:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 9ab01732-1047-4941-bf82-a2649eb35a98
+  hippostd:foldertype: [new-gogreen-imageset-folder]
+  hippostd:gallerytype: ['gogreen:imageset']
+  /learning-home.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 698a940a-d812-4acd-a529-25d086d3c177
+    /learning-home.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: learning-home.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: learning-home.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 223
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/small/small.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 768
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/original/original.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 662
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/large/large.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 548
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 142
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 106
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/learning-home.jpg/learning-home.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:38.839+01:00
+        jcr:mimeType: image/jpeg
+  /mountains.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8a7b7fe5-205a-4acb-ad7d-5d00e93ab56f
+    /mountains.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: mountains.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: mountains.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 223
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/small/small.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 768
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/original/original.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 662
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/large/large.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 548
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 142
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 106
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/mountains.jpg/mountains.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:39.446+01:00
+        jcr:mimeType: image/jpeg
+  /ncc-logo.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: aadc98d1-c422-4daf-b96a-1ecc1646ea0d
+    /ncc-logo.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: ncc-logo.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: ncc-logo.jpg
+        hippogallery:height: 24
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/thumbnail/thumbnail.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 201
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/small/small.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 315
+        hippogallery:width: 768
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/original/original.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 271
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/large/large.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 609
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/banner/banner.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 271
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/largesquare/largesquare.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 128
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/mediumsquare/mediumsquare.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 95
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/ncc-logo.jpg/ncc-logo.jpg/smallsquare/smallsquare.png
+        jcr:lastModified: 2020-03-16T13:20:39.810+01:00
+        jcr:mimeType: image/png
+  /office.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: cd9953af-1918-452d-a633-0e1ee9a4d45e
+    /office.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: office.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: office.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 223
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/small/small.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 768
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/original/original.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 662
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/large/large.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 548
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 142
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 106
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/office.jpg/office.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.148+01:00
+        jcr:mimeType: image/jpeg
+  /study.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d58ab927-08ff-4650-b71b-05544e2e8188
+    /study.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: study.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: study.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 223
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/small/small.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 768
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/original/original.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 662
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/large/large.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 548
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 142
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 106
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/study.jpg/study.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.417+01:00
+        jcr:mimeType: image/jpeg
+  /swim.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0c794d02-6c26-409f-9d4e-e7662075bfaa
+    /swim.jpg:
+      jcr:primaryType: gogreen:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: swim.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: swim.jpg
+        hippogallery:height: 27
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 223
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/small/small.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 768
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/original/original.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 662
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/large/large.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 548
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/banner/banner.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 302
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 142
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
+      /gogreen:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 106
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/gogreen/blog-images/swim.jpg/swim.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2020-03-16T13:20:40.705+01:00
+        jcr:mimeType: image/jpeg
