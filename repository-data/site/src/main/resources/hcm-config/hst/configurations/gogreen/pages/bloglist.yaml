@@ -10,4 +10,4 @@ definitions:
           hst:referencecomponent: bloglistdetail/main/left
         /right:
           jcr:primaryType: hst:containercomponentreference
-          hst:referencecomponent: bloglistsidebar/main
+          hst:referencecomponent: bloglistsidebar/main/right

@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 9f05d40f-a6ce-4d58-9643-32d0a92ba64b
+          jcr:uuid: 1dda15d3-cb13-481d-ad8c-b0d620a1a68e
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
@@ -78,6 +78,15 @@ definitions:
             hipposysedit:path: gogreen:image
             hipposysedit:primary: false
             hipposysedit:type: hippogallerypicker:imagelink
+          /comments:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: gogreen:comments
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
+            hipposysedit:validators: [required]
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         jcr:mixinTypes: ['mix:referenceable']
@@ -85,7 +94,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:blogpost
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: a2f2cb49-a33b-4c26-99e4-b6623ba8690c
+          jcr:uuid: 3af11f5a-9307-43e7-aa01-d48d723612f2
           gogreen:authornames: ['']
           gogreen:introduction: ''
           gogreen:publicationdate: 0001-01-01T13:00:00+01:00
@@ -112,6 +121,9 @@ definitions:
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:comments:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -142,6 +154,7 @@ definitions:
             hint: authors.hint
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.right.item
+            caption: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
               nodetypes: ['gogreen:author']
@@ -150,6 +163,8 @@ definitions:
             field: publicationdate
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.right.item
+            caption: ''
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
           /title:
@@ -202,3 +217,13 @@ definitions:
             wicket.id: ${cluster.id}.left.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
+          /comments:
+            jcr:primaryType: frontend:plugin
+            caption: comments
+            field: comments
+            hint: comments
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              base.path: gogreen:comments

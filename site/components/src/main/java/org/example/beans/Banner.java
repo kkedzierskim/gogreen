@@ -3,13 +3,11 @@ package org.example.beans;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
-import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
-import org.example.beans.Imageset;
 
 @HippoEssentialsGenerated(internalName = "gogreen:bannerdocument")
 @Node(jcrType = "gogreen:bannerdocument")
-public class Banner extends BaseDocument {
+public class Banner extends BaseBean {
     @HippoEssentialsGenerated(internalName = "gogreen:title")
     public String getTitle() {
         return getSingleProperty("gogreen:title");

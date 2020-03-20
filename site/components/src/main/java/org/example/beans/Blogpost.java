@@ -8,10 +8,11 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.components.model.Authors;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.example.beans.Imageset;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
 
 @HippoEssentialsGenerated(internalName = "gogreen:blogpost")
 @Node(jcrType = "gogreen:blogpost")
-public class Blogpost extends HippoDocument implements Authors {
+public class Blogpost extends TextBean implements Authors {
     public static final String TITLE = "gogreen:title";
     public static final String INTRODUCTION = "gogreen:introduction";
     public static final String CONTENT = "gogreen:content";
@@ -70,5 +71,10 @@ public class Blogpost extends HippoDocument implements Authors {
     @HippoEssentialsGenerated(internalName = "gogreen:image")
     public Imageset getImage() {
         return getLinkedBean("gogreen:image", Imageset.class);
+    }
+
+    @HippoEssentialsGenerated(internalName = "gogreen:comments")
+    public List<HippoBean> getComments() {
+        return getLinkedBeans("gogreen:comments", HippoBean.class);
     }
 }

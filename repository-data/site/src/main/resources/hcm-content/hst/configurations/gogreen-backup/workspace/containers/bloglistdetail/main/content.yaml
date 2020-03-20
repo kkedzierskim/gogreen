@@ -1,8 +1,0 @@
-/hst:hst/hst:configurations/gogreen-backup/hst:workspace/hst:containers/bloglistdetail/main/content:
-  jcr:primaryType: hst:containeritemcomponent
-  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBlogComponent
-  hst:label: Blog List
-  hst:parameternames: [documentTypes, sortField, sortOrder, showPagination, includeSubtypes,
-    pageSize, path]
-  hst:parametervalues: ['gogreen:blogpost', '', desc, 'on', 'off', '2', '']
-  hst:template: blog-list

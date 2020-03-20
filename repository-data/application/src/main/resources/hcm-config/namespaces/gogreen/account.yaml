@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 82ef014d-284b-486b-8102-6ff210def947
+          jcr:uuid: af0a7f87-9668-4c58-8dd2-32909b7dd58d
           hipposysedit:node: true
           hipposysedit:supertype: ['hippo:compound', 'hippostd:relaxed']
           hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
@@ -65,5 +65,7 @@ definitions:
             field: link
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.field
+            caption: ''
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

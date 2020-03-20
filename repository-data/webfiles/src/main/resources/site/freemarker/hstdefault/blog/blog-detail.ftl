@@ -28,6 +28,29 @@
              </#if>
              </strong>
         </div>
+        <div>
+        <h2>Comments</h2>
+            <@hst.actionURL var="actionLink"/>
+               <form method="post" action="${actionLink}">
+                 <h4>Enter your comment here:</h4>
+                 <table>
+                   <tr>
+                     <th><label for="title">Title:</label></th>
+                     <td><input type="text" id="title" name="title" value="" /></td>
+                   </tr>
+                   <tr>
+                     <th valign="top"><label for="comment">Comment:</label></th>
+                     <td><textarea name="comment" id="comment" rows="4" cols="40"></textarea></td>
+                   </tr>
+                   <tr>
+                     <td colspan="2">
+                       <input type="submit" value="Submit"/>
+                       <input type="reset" value="Reset"/>
+                     </td>
+                    </tr>
+                 </table>
+               </form>
+        </div>
       </div>
     </div>
   </div>

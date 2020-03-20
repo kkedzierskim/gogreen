@@ -1,0 +1,7 @@
+/content/documents/gogreen/comments:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 7cbe87a3-cf9c-4156-b5d5-1a62ed2a0fcb
+  hippostd:foldertype: [new-Comment-document, new-Comment-folder]
+  hippotranslation:id: c63a26b7-2189-4ab6-9f17-03f717ff32a2
+  hippotranslation:locale: en

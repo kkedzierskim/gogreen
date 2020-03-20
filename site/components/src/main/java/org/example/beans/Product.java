@@ -4,11 +4,10 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import java.util.List;
-import org.example.beans.Imageset;
 
 @HippoEssentialsGenerated(internalName = "gogreen:product")
 @Node(jcrType = "gogreen:product")
-public class Product extends BaseDocument {
+public class Product extends BaseBean {
     @HippoEssentialsGenerated(internalName = "gogreen:title")
     public String getTitle() {
         return getSingleProperty("gogreen:title");

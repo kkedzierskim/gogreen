@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: d2429cd8-0216-432d-b623-c1e8f0395b8c
+          jcr:uuid: 39b0672c-7b5c-47dc-bcb9-a72833710f26
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.gogreen.com/gogreen/nt/1.0
@@ -62,7 +62,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:author
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 3d507ef0-ea75-4590-9b6e-1979704b122b
+          jcr:uuid: 79e1da9c-9d74-4232-94a1-5496c448d1be
           gogreen:fullname: ''
           gogreen:role: ''
           hippo:related___pathreference: []
@@ -76,7 +76,7 @@ definitions:
           hippotranslation:locale: document-type-locale
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
+            hippostd:content: ''
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -140,5 +140,7 @@ definitions:
             field: accounts
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.left.item
+            caption: ''
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

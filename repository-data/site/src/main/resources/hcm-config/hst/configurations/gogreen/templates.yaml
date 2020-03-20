@@ -47,9 +47,9 @@ definitions:
       /faceted-navigation:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/gogreen/faceted-navigation.ftl
-      /blog-main:
-        jcr:primaryType: hst:template
-        hst:renderpath: webfile:/freemarker/gogreen/blog/blog-main.ftl
       /blog-detail:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/hstdefault/blog/blog-detail.ftl
+      /blog-sidebar:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/gogreen/blog-sidebar.ftl

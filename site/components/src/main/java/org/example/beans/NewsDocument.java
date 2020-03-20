@@ -13,7 +13,7 @@ import org.hippoecm.hst.content.beans.standard.HippoBean;
 @HippoEssentialsGenerated(internalName = "gogreen:newsdocument")
 @Node(jcrType = "gogreen:newsdocument")
 public class NewsDocument extends HippoDocument {
-    /** 
+    /**
      * The document type of the news document.
      */
     public static final String DOCUMENT_TYPE = "gogreen:newsdocument";
@@ -26,7 +26,7 @@ public class NewsDocument extends HippoDocument {
     private static final String AUTHOR = "gogreen:author";
     private static final String SOURCE = "gogreen:source";
 
-    /** 
+    /**
      * Get the title of the document.
      * @return the title
      */
@@ -35,7 +35,7 @@ public class NewsDocument extends HippoDocument {
         return getSingleProperty(TITLE);
     }
 
-    /** 
+    /**
      * Get the date of the document.
      * @return the date
      */
@@ -44,7 +44,7 @@ public class NewsDocument extends HippoDocument {
         return getSingleProperty(DATE);
     }
 
-    /** 
+    /**
      * Get the introduction of the document.
      * @return the introduction
      */
@@ -53,7 +53,7 @@ public class NewsDocument extends HippoDocument {
         return getSingleProperty(INTRODUCTION);
     }
 
-    /** 
+    /**
      * Get the main content of the document.
      * @return the content
      */
@@ -62,7 +62,7 @@ public class NewsDocument extends HippoDocument {
         return getHippoHtml(CONTENT);
     }
 
-    /** 
+    /**
      * Get the location of the document.
      * @return the location
      */
@@ -71,7 +71,7 @@ public class NewsDocument extends HippoDocument {
         return getSingleProperty(LOCATION);
     }
 
-    /** 
+    /**
      * Get the author of the document.
      * @return the author
      */
@@ -80,7 +80,7 @@ public class NewsDocument extends HippoDocument {
         return getSingleProperty(AUTHOR);
     }
 
-    /** 
+    /**
      * Get the source of the document.
      * @return the source
      */

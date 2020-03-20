@@ -50,16 +50,12 @@ definitions:
         jcr:primaryType: hst:containercomponentfolder
         /main:
           .meta:residual-child-node-category: content
-          jcr:primaryType: hst:containercomponent
-          hst:label: Blog List Sidebar
-          hst:xtype: hst.vbox
+          jcr:primaryType: hst:containercomponentfolder
       /blogpagesidebar:
         jcr:primaryType: hst:containercomponentfolder
         /main:
           .meta:residual-child-node-category: content
-          jcr:primaryType: hst:containercomponent
-          hst:label: Blog Page Sidebar
-          hst:xtype: hst.vbox
+          jcr:primaryType: hst:containercomponentfolder
       /blogpagedetail:
         jcr:primaryType: hst:containercomponentfolder
         /main:

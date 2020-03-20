@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 
-<#-- @ftlvariable name="document" type="org.example.beans.ContentDocument" -->
+<#-- @ftlvariable name="document" type="org.example.beans.ContentBean" -->
 <#if document??>
 <article class="has-edit-button">
   <@hst.manageContent hippobean=document/>

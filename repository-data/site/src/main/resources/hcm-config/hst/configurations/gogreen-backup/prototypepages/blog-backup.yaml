@@ -1,8 +1,0 @@
-definitions:
-  config:
-    /hst:hst/hst:configurations/gogreen-backup/hst:prototypepages/blog-backup:
-      jcr:primaryType: hst:component
-      hst:referencecomponent: hst:abstractpages/twocolumns
-      /main:
-        jcr:primaryType: hst:component
-        hst:template: blog-main

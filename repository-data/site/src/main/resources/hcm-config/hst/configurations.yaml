@@ -22,6 +22,3 @@ definitions:
       /gogreen:
         jcr:primaryType: hst:configuration
         hst:inheritsfrom: [../common]
-      /gogreen-backup:
-        jcr:primaryType: hst:configuration
-        hst:inheritsfrom: [../common]

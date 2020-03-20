@@ -1,7 +1,7 @@
 <#include "../../include/imports.ftl">
 
 <#-- @ftlvariable name="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable" -->
-<#-- @ftlvariable name="item" type="org.example.beans.ContentDocument" -->
+<#-- @ftlvariable name="item" type="org.example.beans.ContentBean" -->
 <#if pageable?? && pageable.items?has_content>
 <div>
   <#list pageable.items as item>

@@ -59,3 +59,5 @@ definitions:
       new-blog-folder: new blog folder
       new-blogauthor-folder: new blog author folder
       new-blogauthor-document: new blog author
+      new-Comment-document: new Comment document
+      new-Comment-folder: new Comment folder
